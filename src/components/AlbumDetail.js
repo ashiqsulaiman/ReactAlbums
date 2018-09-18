@@ -34,13 +34,6 @@ const AlbumDetail = ({album}) => {
                 />
             </CardSection>
 
-            <CardSection> 
-                <Image 
-                    style = {imageStyle}
-                    source = {{uri: image}} 
-                    />
-            </CardSection>
-
             <CardSection>
                <Button />
             </CardSection>
