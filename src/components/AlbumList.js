@@ -8,7 +8,6 @@ state = { albums: [] };
 
 
 componentWillMount(){
-    console.log('inside comp wil mount')
     axios.get('https://rallycoding.herokuapp.com/api/music_albums')
         .then(response => this.setState({albums: response.data}));
     }
